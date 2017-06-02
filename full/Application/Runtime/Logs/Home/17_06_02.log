@@ -1,0 +1,1385 @@
+[ 2017-06-02T14:46:52+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T14:46:54+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: condition E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 7 行.
+NOTIC: [8] Undefined index: keywords E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+ERR: 1054:Unknown column 'is_show' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 ) LIMIT 1  
+ERR: 1054:Unknown column 'is_show' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 ) LIMIT 1  
+
+[ 2017-06-02T14:47:46+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: condition E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 7 行.
+NOTIC: [8] Undefined index: keywords E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( is_show = 1 ) LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T14:48:41+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: condition E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 7 行.
+NOTIC: [8] Undefined index: keywords E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( is_show = 1 ) LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0060s ]
+SQL: SELECT `name` FROM `article_type` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T14:48:57+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: condition E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 7 行.
+NOTIC: [8] Undefined index: keywords E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( is_show = 1 ) LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `article_type` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 30 行.
+SQL: SELECT `name` FROM `article_type` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T14:49:08+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: condition E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 7 行.
+NOTIC: [8] Undefined index: keywords E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0190s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( is_show = 1 ) LIMIT 0,1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0040s ]
+SQL: SELECT `name` FROM `article_type` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T14:49:10+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: condition E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 7 行.
+NOTIC: [8] Undefined index: keywords E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( is_show = 1 ) LIMIT 1,1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0040s ]
+SQL: SELECT `name` FROM `article_type` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T14:49:12+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: condition E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 7 行.
+NOTIC: [8] Undefined index: keywords E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( is_show = 1 ) LIMIT 0,1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `article_type` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T14:54:37+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: condition E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 7 行.
+NOTIC: [8] Undefined index: keywords E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( is_show = 1 ) LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0040s ]
+SQL: SELECT `name` FROM `article_type` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 30 行.
+SQL: SELECT `name` FROM `article_type` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T14:54:39+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: condition E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 7 行.
+NOTIC: [8] Undefined index: keywords E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( is_show = 1 ) LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0040s ]
+SQL: SELECT `name` FROM `article_type` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 30 行.
+SQL: SELECT `name` FROM `article_type` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T14:55:22+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: condition E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 7 行.
+NOTIC: [8] Undefined index: keywords E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( is_show = 1 ) LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `article_type` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 30 行.
+SQL: SELECT `name` FROM `article_type` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T14:55:25+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index?condition=2&keywords=a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0030s ]
+ERR: 1054:Unknown column 'a' in 'where clause'
+ [ SQL语句 ] : SELECT `id` FROM `article_type` WHERE ( name = a ) LIMIT 1  
+ERR: 1054:Unknown column 'a' in 'where clause'
+ [ SQL语句 ] : SELECT `id` FROM `article_type` WHERE ( name = a ) LIMIT 1  
+
+[ 2017-06-02T14:57:54+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index?condition=2&keywords=a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0030s ]
+ERR: 1054:Unknown column 'a' in 'where clause'
+ [ SQL语句 ] : SELECT `id` FROM `article_type` WHERE ( name = a ) LIMIT 1  
+ERR: 1054:Unknown column 'a' in 'where clause'
+ [ SQL语句 ] : SELECT `id` FROM `article_type` WHERE ( name = a ) LIMIT 1  
+
+[ 2017-06-02T14:58:41+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index?condition=2&keywords=a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0030s ]
+ERR: 1054:Unknown column 'a' in 'where clause'
+ [ SQL语句 ] : SELECT `id` FROM `article_type` WHERE ( name = a ) LIMIT 1  
+ERR: 1054:Unknown column 'a' in 'where clause'
+ [ SQL语句 ] : SELECT `id` FROM `article_type` WHERE ( name = a ) LIMIT 1  
+
+[ 2017-06-02T14:58:44+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: condition E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 7 行.
+NOTIC: [8] Undefined index: keywords E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( is_show = 1 ) LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0040s ]
+SQL: SELECT `name` FROM `article_type` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 30 行.
+SQL: SELECT `name` FROM `article_type` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T14:58:46+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index?condition=2&keywords=a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0030s ]
+ERR: 1054:Unknown column 'a' in 'where clause'
+ [ SQL语句 ] : SELECT `id` FROM `article_type` WHERE ( name = a ) LIMIT 1  
+ERR: 1054:Unknown column 'a' in 'where clause'
+ [ SQL语句 ] : SELECT `id` FROM `article_type` WHERE ( name = a ) LIMIT 1  
+
+[ 2017-06-02T14:58:54+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: condition E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 7 行.
+NOTIC: [8] Undefined index: keywords E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods` WHERE ( is_show = 1 ) LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `article_type` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 30 行.
+SQL: SELECT `name` FROM `article_type` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T14:58:56+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: condition E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 7 行.
+NOTIC: [8] Undefined index: keywords E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( is_show = 1 ) LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `article_type` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 30 行.
+SQL: SELECT `name` FROM `article_type` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T14:59:03+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index?condition=1&keywords=%E5%95%A4%E9%85%92
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 and title = '啤酒' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( is_show = 1 ) LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `article_type` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 30 行.
+SQL: SELECT `name` FROM `article_type` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T14:59:05+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index?condition=1&keywords=%E5%95%A4%E9%85%92
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 and title = '啤酒' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( is_show = 1 ) LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0040s ]
+SQL: SELECT `name` FROM `article_type` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 30 行.
+SQL: SELECT `name` FROM `article_type` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T14:59:06+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index?condition=1&keywords=%E5%95%A4%E9%85%92
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0250s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 and title = '啤酒' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( is_show = 1 ) LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `article_type` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 30 行.
+SQL: SELECT `name` FROM `article_type` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T14:59:07+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index?condition=1&keywords=%E5%95%A4%E9%85%92
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 and title = '啤酒' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( is_show = 1 ) LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `article_type` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 30 行.
+SQL: SELECT `name` FROM `article_type` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T14:59:52+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index?condition=1&keywords=%E5%95%A4%E9%85%92
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 and title = '啤酒' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( is_show = 1 ) LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `article_type` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 30 行.
+SQL: SELECT `name` FROM `article_type` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-06-02T14:59:58+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index?condition=2&keywords=a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T15:00:48+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index?condition=2&keywords=a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T15:01:05+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index?condition=2&keywords=a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0050s ]
+ERR: 1054:Unknown column 'a' in 'where clause'
+ [ SQL语句 ] : SELECT `id` FROM `article_type` WHERE ( name like a ) LIMIT 1  
+ERR: 1054:Unknown column 'a' in 'where clause'
+ [ SQL语句 ] : SELECT `id` FROM `article_type` WHERE ( name like a ) LIMIT 1  
+
+[ 2017-06-02T15:02:50+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index?condition=2&keywords=a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `article_type` WHERE ( name = 'a' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Array'' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 and cid = 'Array'' ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Array'' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 and cid = 'Array'' ) LIMIT 1  
+
+[ 2017-06-02T15:03:27+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index?condition=2&keywords=a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0050s ]
+SQL: SELECT `id` FROM `article_type` WHERE ( name = 'a' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-02T15:04:30+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index?condition=2&keywords=a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `article_type` WHERE ( name = 'a' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''2'' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 and cid = '2'' ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''2'' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 and cid = '2'' ) LIMIT 1  
+
+[ 2017-06-02T15:05:52+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index?condition=2&keywords=a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0060s ]
+SQL: SELECT `id` FROM `article_type` WHERE ( name = 'a' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''2'' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 and cid = '2'' ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''2'' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 and cid = '2'' ) LIMIT 1  
+
+[ 2017-06-02T15:05:53+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index?condition=2&keywords=a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `article_type` WHERE ( name = 'a' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''2'' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 and cid = '2'' ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''2'' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 and cid = '2'' ) LIMIT 1  
+
+[ 2017-06-02T15:06:32+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index?condition=2&keywords=a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0040s ]
+SQL: SELECT `id` FROM `article_type` WHERE ( name = 'a' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''2'' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 and cid = '2'' ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''2'' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 and cid = '2'' ) LIMIT 1  
+
+[ 2017-06-02T15:06:34+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index?condition=2&keywords=a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `article_type` WHERE ( name = 'a' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''2'' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 and cid = '2'' ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''2'' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 and cid = '2'' ) LIMIT 1  
+
+[ 2017-06-02T15:06:38+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index?condition=1&keywords=%E5%95%A4%E9%85%92
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 and title = '啤酒' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-02T15:07:27+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index?condition=1&keywords=%E5%95%A4%E9%85%92
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 and title = '啤酒' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( is_show = 1 ) LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0040s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''1'' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `name` FROM `article_type` WHERE ( id = '1'' ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''1'' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `name` FROM `article_type` WHERE ( id = '1'' ) LIMIT 1  
+
+[ 2017-06-02T15:07:54+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index?condition=1&keywords=%E5%95%A4%E9%85%92
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 and title = '啤酒' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( is_show = 1 ) LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `article_type` WHERE ( id = '1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 32 行.
+SQL: SELECT `name` FROM `article_type` WHERE ( id = '2' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T15:07:56+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index?condition=1&keywords=%E5%95%A4%E9%85%92
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 and title = '啤酒' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( is_show = 1 ) LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `article_type` WHERE ( id = '1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 32 行.
+SQL: SELECT `name` FROM `article_type` WHERE ( id = '2' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T15:07:57+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index?condition=1&keywords=%E5%95%A4%E9%85%92
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 and title = '啤酒' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( is_show = 1 ) LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `article_type` WHERE ( id = '1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 32 行.
+SQL: SELECT `name` FROM `article_type` WHERE ( id = '2' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T15:07:58+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index?condition=1&keywords=%E5%95%A4%E9%85%92
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 and title = '啤酒' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods` WHERE ( is_show = 1 ) LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `article_type` WHERE ( id = '1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 32 行.
+SQL: SELECT `name` FROM `article_type` WHERE ( id = '2' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T15:07:59+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index?condition=1&keywords=%E5%95%A4%E9%85%92
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 and title = '啤酒' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( is_show = 1 ) LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0040s ]
+SQL: SELECT `name` FROM `article_type` WHERE ( id = '1' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 32 行.
+SQL: SELECT `name` FROM `article_type` WHERE ( id = '2' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T15:08:00+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index?condition=1&keywords=%E5%95%A4%E9%85%92
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 and title = '啤酒' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( is_show = 1 ) LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0040s ]
+SQL: SELECT `name` FROM `article_type` WHERE ( id = '1' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 32 行.
+SQL: SELECT `name` FROM `article_type` WHERE ( id = '2' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T15:08:01+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index?condition=1&keywords=%E5%95%A4%E9%85%92
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 and title = '啤酒' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods` WHERE ( is_show = 1 ) LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0060s ]
+SQL: SELECT `name` FROM `article_type` WHERE ( id = '1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 32 行.
+SQL: SELECT `name` FROM `article_type` WHERE ( id = '2' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T15:08:02+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index?condition=1&keywords=%E5%95%A4%E9%85%92
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 and title = '啤酒' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods` WHERE ( is_show = 1 ) LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `article_type` WHERE ( id = '1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 32 行.
+SQL: SELECT `name` FROM `article_type` WHERE ( id = '2' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T15:08:03+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index?condition=1&keywords=%E5%95%A4%E9%85%92
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 and title = '啤酒' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods` WHERE ( is_show = 1 ) LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `article_type` WHERE ( id = '1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 32 行.
+SQL: SELECT `name` FROM `article_type` WHERE ( id = '2' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T15:12:17+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index?condition=1&keywords=%E5%95%A4%E9%85%92
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 and title = '啤酒' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( is_show = 1 and title = '啤酒' ) ORDER BY id asc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `article_type` WHERE ( id = '1' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T15:12:19+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index?condition=1&keywords=%E5%95%A4%E9%85%92
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 and title = '啤酒' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods` WHERE ( is_show = 1 and title = '啤酒' ) ORDER BY id asc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0050s ]
+SQL: SELECT `name` FROM `article_type` WHERE ( id = '1' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T15:12:24+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index?condition=2&keywords=a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0040s ]
+SQL: SELECT `id` FROM `article_type` WHERE ( name = 'a' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''2'' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 and cid = '2'' ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''2'' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 and cid = '2'' ) LIMIT 1  
+
+[ 2017-06-02T15:13:01+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index?condition=2&keywords=a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0050s ]
+SQL: SELECT `id` FROM `article_type` WHERE ( name = 'a' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 and cid = '2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( is_show = 1 and cid = '2' ) ORDER BY id asc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0040s ]
+SQL: SELECT `name` FROM `article_type` WHERE ( id = '2' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T15:13:03+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index?condition=2&keywords=a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `article_type` WHERE ( name = 'a' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 and cid = '2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( is_show = 1 and cid = '2' ) ORDER BY id asc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0060s ]
+SQL: SELECT `name` FROM `article_type` WHERE ( id = '2' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-06-02T15:13:06+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index?condition=2&keywords=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0040s ]
+SQL: SELECT `id` FROM `article_type` WHERE ( name = '' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 and cid = '' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( is_show = 1 and cid = '' ) ORDER BY id asc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T15:14:17+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index?condition=2&keywords=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `article_type` WHERE ( name = '' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 and cid = '' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-02T15:15:44+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index?condition=2&keywords=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-06-02T15:15:49+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index?condition=2&keywords=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods` WHERE ( is_show = 1 ) ORDER BY id asc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0020s ]
+SQL: SELECT `name` FROM `article_type` WHERE ( id = '1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 35 行.
+SQL: SELECT `name` FROM `article_type` WHERE ( id = '2' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T15:15:50+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index?condition=1&keywords=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( is_show = 1 ) ORDER BY id asc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `article_type` WHERE ( id = '1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 35 行.
+SQL: SELECT `name` FROM `article_type` WHERE ( id = '2' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T15:15:53+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index?condition=2&keywords=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( is_show = 1 ) ORDER BY id asc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0040s ]
+SQL: SELECT `name` FROM `article_type` WHERE ( id = '1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 35 行.
+SQL: SELECT `name` FROM `article_type` WHERE ( id = '2' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T15:15:55+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index?condition=2&keywords=a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0040s ]
+SQL: SELECT `id` FROM `article_type` WHERE ( name = 'a' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 and cid = '2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( is_show = 1 and cid = '2' ) ORDER BY id asc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `article_type` WHERE ( id = '2' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T15:16:00+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index?condition=1&keywords=a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 and title = 'a' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods` WHERE ( is_show = 1 and title = 'a' ) ORDER BY id asc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T15:16:03+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/index?condition=1&keywords=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `goods` WHERE ( is_show = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( is_show = 1 ) ORDER BY id asc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0050s ]
+SQL: SELECT `name` FROM `article_type` WHERE ( id = '1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\GoodController.class.php 第 35 行.
+SQL: SELECT `name` FROM `article_type` WHERE ( id = '2' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T15:16:09+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: result E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\1ad2a92ab610103fa7676532e08c9976.php 第 12 行.
+NOTIC: [8] Undefined variable: result E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\1ad2a92ab610103fa7676532e08c9976.php 第 16 行.
+NOTIC: [8] Undefined variable: result E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\1ad2a92ab610103fa7676532e08c9976.php 第 20 行.
+NOTIC: [8] Undefined variable: result E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\1ad2a92ab610103fa7676532e08c9976.php 第 24 行.
+NOTIC: [8] Undefined variable: result E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\1ad2a92ab610103fa7676532e08c9976.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T15:19:35+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name`,`is_show`,`info` FROM `article_type` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T15:20:07+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Good/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`name`,`is_show`,`info` FROM `article_type` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
