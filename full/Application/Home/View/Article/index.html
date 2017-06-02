@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>分类管理</title>
+</head>
+<body>
+<center>
+    <div class="location">当前位置: <a href="__MODULE__/Index/index">首页</a> >  <a href="__MODULE__/Article/index">分类列表</a>  > <a href="__MODULE__/Article/add">添加分类</a>  </div>
+    <table border="1"  cellspacing="0">
+        <tr>
+            <th >ID</th>
+            <th>分类名</th>
+            <th>描述</th>
+            <th >是否显示</th>
+            <th >增加时间</th>
+            <th>操作</th>
+        </tr>
+        <volist name="result" id="vo">
+            <tr>
+                <td>{$vo.id}</td>
+                <td>{$vo.name}</td>
+                <td>{$vo.info}</td>
+                <!--<td><a href="/Uploads/{$vo.path}" target="_blank">{$vo.path}</a></td>-->
+                <td>
+                    <if condition="$vo.is_show eq 1">显示
+                        <else/>不显示
+                    </if>
+                </td>
+                <td>
+                    <if condition="$vo.create_time eq 0">---
+                        <else/>{$vo.create_time|date="Y-m-d",###}
+                    </if>
+                </td>
+                <td>
+                    <a href="__CONTROLLER__/edit/id/{$vo.id}">编辑</a>
+                    <!--<a href="__CONTROLLER__/delete/id/{$vo.id}">删除</a>-->
+                </td>
+            </tr>
+        </volist>
+    </table>
+</center>
+</body>
+</html>

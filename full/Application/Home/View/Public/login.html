@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>crm后台管理系统</title>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/style.css?82280">
+	<script src="__PUBLIC__/Js/jquery-1.4.2.min.js" type="text/javascript"></script>
+	<script src="__PUBLIC__/Js/jQuerycode.js" type="text/javascript"></script>
+	<link type="text/css" rel="stylesheet" href="__PUBLIC__/JBox/Skins/Gray/jbox.css"/>
+	<script type="text/javascript" src="__PUBLIC__/JBox/jquery.jBox.min.js"></script>
+</head>
+<body id="login" onload="freshVerify()">
+<div id="logintop">
+	<img src="__PUBLIC__/img/logo.png" height="54" width="400" alt="">
+</div>
+<div id="loginbox">
+<form action="__CONTROLLER__/check_login" method="post" id="form1">
+	<div class="logincon">
+		<ul>
+			<li><input type="text" class="ltxt" placeholder="请输入员工编号"  onkeyup="change_upper()" name="user_num" id="user_num" value="{$user.username}"><i class="i1" ></i></li>
+			<li><input type="password" class="ltxt" placeholder="请输入密码" onkeyup="change_password()" name="password" id="password" value="{$user.password}"   oncopy="return false;" onpaste="return false;" oncut="return false;"><i class="i2" ></i></li>
+			<li><input type="text" class="ltxt1" placeholder="请输入验证码" name="verify" id="verify" maxlength="3"> <img src="__CONTROLLER__/verify"  id="verifyImg" onclick="freshVerify()" height="34" width="88"  style="cursor:pointer;" > </li>
+			<li><span class="fr"><a href="__URL__/forget_password">忘记密码？</a></span><label><input type="checkbox" name="remeber_password" id=""> 记住密码</label></li>
+			<li><input type="button" value="登 录" class="lbtn" onclick="return checksub()"></li>
+			<li><span class="Android"><a href="#" onclick="tip_error_alert()">Android 客户端下载</a></span><span class="iphone"><a href="#" onclick="tip_error_alert()">Iphone 客户端下载</a></span></li>
+		</ul>
+	</div>
+ </form>
+</div>
+<script>
+	function tip_error_alert(){
+		$.jBox.tip("敬请期待！！","友情提示");					
+		return false;
+	}
+	function change_upper(){		
+		document.getElementById("user_num").value = $.trim(document.getElementById("user_num").value.toUpperCase());
+	}
+	function change_password(){
+		document.getElementById("password").value = $.trim(document.getElementById("password").value);
+	}
+
+	function freshVerify() { 
+   document.getElementById('verifyImg').src='__CONTROLLER__/verify/'+Math.random(); 
+	}
+	
+	function checksub(){	
+		var user_num = $("#user_num").val(); //员工编号		
+		if(user_num == ""){			
+			$.jBox.tip("员工编号不能为空!","友情提示");					
+			$("#user_num").focus();
+			return false;
+		}
+		var password = $("#password").val();
+		if(password == ""){
+			$.jBox.tip("密码不能为空!","友情提示");					
+			$("#password").focus();
+			return false;
+		}
+		var verify = $("#verify").val();
+		if(verify == ""){
+			$.jBox.tip("验证码不能为空!","友情提示");					
+			$("#verify").focus();
+			return false;
+		}
+		var form1=document.getElementById("form1");
+		form1.submit();
+}
+</script>
+<script> 
+    document.onkeydown=function(event){ 
+        e = event ? event :(window.event ? window.event : null); 
+        if(e.keyCode==13){ 
+            //执行的方法  
+            checksub();
+        } 
+    } 
+</script> 
+<div class="footwhite"></div>
+<div id="footer">CopyRight © 2016 ©  北京东方富通投资管理有限公司版权所有 </div>
+</body>
+</html>
