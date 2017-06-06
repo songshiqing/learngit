@@ -6,9 +6,9 @@
 </head>
 <body>
 <center>
-    <div class="location">当前位置: <a href="/2017-6-1/full/index.php/Home/Index/index">首页</a> >  <a href="/2017-6-1/full/index.php/Home/Article/index">分类列表</a>  > <a href="/2017-6-1/full/index.php/Home/Article/add">添加分类</a>  </div>
+    <div class="location">当前位置: <a href="/2017-6-1/learngit/full/index.php/Home/Index/index">首页</a> >  <a href="/2017-6-1/learngit/full/index.php/Home/Article/index">分类列表</a>  > <a href="/2017-6-1/learngit/full/index.php/Home/Article/add">添加分类</a>  </div>
     <h2 class="t2"><?php if($action == 'add'): ?>新增<?php else: ?>编辑<?php endif; ?>分类</h2>
-    <form enctype="multipart/form-data" action="/2017-6-1/full/index.php/Home/Article/<?php echo ($action); ?>" method="post">
+    <form enctype="multipart/form-data" action="/2017-6-1/learngit/full/index.php/Home/Article/<?php echo ($action); ?>" method="post">
         <input type="hidden" name="id" value="<?php echo ($result["id"]); ?>">
         <table  border="1"  cellspacing="0">
             <tr>

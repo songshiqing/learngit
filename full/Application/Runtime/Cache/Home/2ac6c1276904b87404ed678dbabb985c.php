@@ -6,7 +6,7 @@
 </head>
 <body>
 <center>
-    <div class="location">当前位置: <a href="/2017-6-1/full/index.php/Home/Index/index">首页</a> >  <a href="/2017-6-1/full/index.php/Home/Article/index">分类列表</a>  > <a href="/2017-6-1/full/index.php/Home/Article/add">添加分类</a>  </div>
+    <div class="location">当前位置: <a href="/2017-6-1/learngit/full/index.php/Home/Index/index">首页</a> >  <a href="/2017-6-1/learngit/full/index.php/Home/Article/index">分类列表</a>  > <a href="/2017-6-1/learngit/full/index.php/Home/Article/add">添加分类</a>  </div>
     <table border="1"  cellspacing="0">
         <tr>
             <th >ID</th>
@@ -30,8 +30,8 @@
                         <?php else: echo (date("Y-m-d",$vo["create_time"])); endif; ?>
                 </td>
                 <td>
-                    <a href="/2017-6-1/full/index.php/Home/Article/edit/id/<?php echo ($vo["id"]); ?>">编辑</a>
-                    <!--<a href="/2017-6-1/full/index.php/Home/Article/delete/id/<?php echo ($vo["id"]); ?>">删除</a>-->
+                    <a href="/2017-6-1/learngit/full/index.php/Home/Article/edit/id/<?php echo ($vo["id"]); ?>">编辑</a>
+                    <!--<a href="/2017-6-1/learngit/full/index.php/Home/Article/delete/id/<?php echo ($vo["id"]); ?>">删除</a>-->
                 </td>
             </tr><?php endforeach; endif; else: echo "" ;endif; ?>
     </table>

@@ -1,0 +1,234 @@
+[ 2017-06-06T13:55:54+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-06T13:56:17+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [2002] �������ӷ���һ��ʱ���û����ȷ�𸴻����ӵ�����û�з�Ӧ�����ӳ���ʧ�ܡ�
+
+
+[ 2017-06-06T13:57:57+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`name`,`is_show`,`info`,`create_time` FROM `article_type` WHERE ( is_show != 0 )  [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: path E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 23 行.
+NOTIC: [8] Undefined index: path E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 23 行.
+NOTIC: [8] Undefined index: path E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 23 行.
+NOTIC: [8] Undefined index: path E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 23 行.
+NOTIC: [8] Undefined index: path E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 23 行.
+NOTIC: [8] Undefined index: path E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 23 行.
+NOTIC: [8] Undefined index: path E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 23 行.
+NOTIC: [8] Undefined index: path E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 23 行.
+NOTIC: [8] Undefined index: path E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 23 行.
+NOTIC: [8] Undefined index: path E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 23 行.
+NOTIC: [8] Undefined index: path E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 23 行.
+NOTIC: [8] Undefined index: path E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-06T13:58:06+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Article/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`name`,`is_show`,`info` FROM `article_type` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-06T13:58:09+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Article/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\ArticleController.class.php 第 32 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\ArticleController.class.php 第 39 行.
+NOTIC: [8] Use of undefined constant is_show - assumed 'is_show' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\ArticleController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant info - assumed 'info' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\ArticleController.class.php 第 41 行.
+NOTIC: [8] Use of undefined constant update_time - assumed 'update_time' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\ArticleController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0100s ]
+SQL: UPDATE `article_type` SET `name`='ahat',`is_show`='1',`info`='阿达啥时间111',`update_time`='1496728689' WHERE ( id = 1 ) [ RunTime:0.0600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-06T13:58:10+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`name`,`is_show`,`info`,`create_time` FROM `article_type` WHERE ( is_show != 0 )  [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: path E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 23 行.
+NOTIC: [8] Undefined index: path E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 23 行.
+NOTIC: [8] Undefined index: path E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 23 行.
+NOTIC: [8] Undefined index: path E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 23 行.
+NOTIC: [8] Undefined index: path E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 23 行.
+NOTIC: [8] Undefined index: path E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 23 行.
+NOTIC: [8] Undefined index: path E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 23 行.
+NOTIC: [8] Undefined index: path E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 23 行.
+NOTIC: [8] Undefined index: path E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 23 行.
+NOTIC: [8] Undefined index: path E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 23 行.
+NOTIC: [8] Undefined index: path E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 23 行.
+NOTIC: [8] Undefined index: path E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-06T13:58:13+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: result E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\cbac10250d18d669771419b1564a77f8.php 第 12 行.
+NOTIC: [8] Undefined variable: result E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\cbac10250d18d669771419b1564a77f8.php 第 16 行.
+NOTIC: [8] Undefined variable: result E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\cbac10250d18d669771419b1564a77f8.php 第 20 行.
+NOTIC: [8] Undefined variable: result E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\cbac10250d18d669771419b1564a77f8.php 第 24 行.
+NOTIC: [8] Undefined variable: result E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\cbac10250d18d669771419b1564a77f8.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-06T13:58:20+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\ArticleController.class.php 第 17 行.
+NOTIC: [8] Use of undefined constant info - assumed 'info' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\ArticleController.class.php 第 18 行.
+NOTIC: [8] Use of undefined constant is_show - assumed 'is_show' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\ArticleController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant create_time - assumed 'create_time' E:\WWW\2017-6-1\learngit\full\Application\Home\Controller\ArticleController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0070s ]
+SQL: INSERT INTO `article_type` (`name`,`info`,`is_show`,`create_time`) VALUES ('111123','1111121312312312','1','1496728700') [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-06T13:58:22+08:00 ] 127.0.0.1 /2017-6-1/learngit/full/index.php/Home/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `article_type` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`name`,`is_show`,`info`,`create_time` FROM `article_type` WHERE ( is_show != 0 )  [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: path E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 23 行.
+NOTIC: [8] Undefined index: path E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 23 行.
+NOTIC: [8] Undefined index: path E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 23 行.
+NOTIC: [8] Undefined index: path E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 23 行.
+NOTIC: [8] Undefined index: path E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 23 行.
+NOTIC: [8] Undefined index: path E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 23 行.
+NOTIC: [8] Undefined index: path E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 23 行.
+NOTIC: [8] Undefined index: path E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 23 行.
+NOTIC: [8] Undefined index: path E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 23 行.
+NOTIC: [8] Undefined index: path E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 23 行.
+NOTIC: [8] Undefined index: path E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 23 行.
+NOTIC: [8] Undefined index: path E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 23 行.
+NOTIC: [8] Undefined index: path E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 23 行.
+NOTIC: [8] Undefined index: path E:\WWW\2017-6-1\learngit\full\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
