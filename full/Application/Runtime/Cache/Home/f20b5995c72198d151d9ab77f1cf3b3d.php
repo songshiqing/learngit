@@ -6,16 +6,16 @@
 </head>
 <body>
 <center>
-    <div class="location">当前位置: <a href="/2017-6-1/learngit/full/index.php/Home/Index/index">首页</a> >  <a href="/2017-6-1/learngit/full/index.php/Home/Good/index">商品列表</a>  > <a href="/2017-6-1/learngit/full/index.php/Home/Good/add">商品添加</a>  </div>
+    <div class="location">当前位置: <a href="/201761/learngit/full/index.php/Home/Index/index">首页</a> >  <a href="/201761/learngit/full/index.php/Home/Good/index">商品列表</a>  > <a href="/201761/learngit/full/index.php/Home/Good/add">商品添加</a>  </div>
     <h2>商品列表</h2>
-    <form action="/2017-6-1/learngit/full/index.php/Home/Good/index" method="get" id="theForm" name="theForm">
+    <form action="/201761/learngit/full/index.php/Home/Good/index" method="get" id="theForm" name="theForm">
 				<span class="fr"><label>查询条件 :&nbsp;</label><select name="condition" id="condition"  onchange="select_condtion();">
                     <option value="1" <?php if(($condition) == "1"): ?>selected<?php endif; ?>>商品名称</option>
                     <option value="2" <?php if(($condition) == "2"): ?>selected<?php endif; ?>>商品分类</option>
                 </select> <label id="tip_words">&nbsp;关键字 :&nbsp;</label><input type="text" class="stxt" name="keywords" id="keywords" value="<?php echo ($keywords); ?>">
         <input type="submit" value="搜索" class="sbtn" ></span>
     </form>
-    <table border="0"  cellspacing="0">
+    <table border="1"  cellspacing="0" cellpadding="0">
         <tr>
             <th >ID</th>
             <th>商品名称</th>
@@ -33,7 +33,13 @@
                 <td><?php echo ($vo["title"]); ?></td>
                 <td><?php echo ($vo["cid"]); ?></td>
                 <td><?php echo ($vo["price"]); ?></td>
-                <td><a href="/Uploads/<?php echo ($vo["path"]); ?>" target="_blank"><?php echo ($vo["path"]); ?></a></td>
+                <td>
+                    <img src="../../../Uploads/<?php echo ($vo['path']); ?>" alt="222" height="100px" width="100px"/>
+                    <!--<li style="background:url(<?=STATIC_URL?>Uploads/<?php echo ($vo["path"]); ?>) 50% 0 no-repeat;">-->
+                        <!--<a href=" "  target="_blank">-->
+                           <!--</a>-->
+                    <!--</li>-->
+                </td>
                 <td><?php echo ($vo["content"]); ?></td>
                 <td>
                     <?php if($vo["is_show"] == 1): ?>显示
@@ -48,8 +54,8 @@
                         <?php else: echo (date("Y-m-d",$vo["update_time"])); endif; ?>
                 </td>
                 <td>
-                    <a href="/2017-6-1/learngit/full/index.php/Home/Good/edit/id/<?php echo ($vo["id"]); ?>">编辑</a>
-                    <!--<a href="/2017-6-1/learngit/full/index.php/Home/Good/delete/id/<?php echo ($vo["id"]); ?>">删除</a>-->
+                    <a href="/201761/learngit/full/index.php/Home/Good/edit/id/<?php echo ($vo["id"]); ?>">编辑</a>
+                    <!--<a href="/201761/learngit/full/index.php/Home/Good/delete/id/<?php echo ($vo["id"]); ?>">删除</a>-->
                 </td>
             </tr><?php endforeach; endif; else: echo "" ;endif; ?>
     </table>

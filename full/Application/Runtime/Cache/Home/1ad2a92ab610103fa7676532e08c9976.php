@@ -12,12 +12,30 @@
         <input type="hidden" name="id" value="<?php echo ($result["id"]); ?>">
         <table  border="0"  cellspacing="0">
             <tr>
-                <td><label for="txtname">名称：</label></td>
-                <td><input type="text" id="txtname" name="name"  value="<?php echo ($result["name"]); ?>"/></td>
+                <td><label for="txtname">商品名称：</label></td>
+                <td><input type="text" id="txtname" name="name"  value="<?php echo ($result["title"]); ?>"/></td>
+            </tr>
+            <tr>
+                <td><label for="txtname">商品价格：</label></td>
+                <td><input type="text"  name="price"  value="<?php echo ($result["price"]); ?>"/></td>
+            </tr>
+            <tr>
+                <td><label>所属分类：</label></td>
+                <td>
+                    <select name="cid" id="cid">
+                        <?php if(is_array($Article_type)): $i = 0; $__LIST__ = $Article_type;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><option value="<?php echo ($vo["id"]); ?>" <?php if($vo["id"] == $type_id): ?>selected<?php endif; ?>><?php echo ($vo["name"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="title">商品图片：</td>
+                <td><input type="file" name="path" id="accessory" value="" >
+                    <?php if($action == 'banner_edit'): ?><a href="/Uploads/<?php echo ($result["path"]); ?>" target="_blank"><?php echo ($result["path"]); ?></a><?php endif; ?>
+                </td>
             </tr>
             <tr>
                 <td><label for="txtpswd">描述：</label></td>
-                <td><textarea  id="txtpswd" cols="20" rows="5" name="info"  ><?php echo ($result["info"]); ?></textarea></td>
+                <td><textarea  id="txtpswd" cols="20" rows="5" name="content"  ><?php echo ($result["content"]); ?></textarea></td>
             </tr>
             <tr>
                 <td class="title">是否显示：</td>

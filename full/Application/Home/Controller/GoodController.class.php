@@ -40,13 +40,34 @@ class GoodController extends Controller {
     public function add(){
         if(empty($_POST)){
             $this->assign("action","add");
+            $result = M("Article_type")->where("is_show != 0")->field("id,name")->select();
+            $this->assign("Article_type",$result);
             $this->display();
         }else{
-            $array[name] = $_POST['name'];
-            $array[info] = $_POST['info'];
+            $array[title] = $_POST['name'];
+            $array[content] = $_POST['content'];
+            $array[cid] = $_POST['cid'];
             $array[is_show] = $_POST['is_show'];
+            $array[price] = $_POST['price'];
             $array[create_time] = time();
-            $result = M("article_type")->add($array);
+            $path = $_FILES['path'];
+            if(!empty($path[tmp_name])){
+                $upload = new \Think\Upload();// 实例化上传类
+                $upload->maxSize = 3145728;//设置附件上传大小
+                $upload->exts = array("jpg","png","gif","jpeg");//设置上传附件类型
+//                $upload->savePath = './Upload/image/';//设置附件上传目录
+                $upload->rootPath  =      './Uploads/'; // 设置附件上传根目录
+                $upload->savePath  =      ''; // 设置附件上传（子）目录
+                $info = $upload->upload();//上传文件
+                if(!$info){//上传错误提示错误信息
+                    $this->error($upload->getError());
+                }else{
+                    foreach($info as $file){
+                        $array[path] =   $file['savepath'].$file['savename'];
+                    }
+                }
+            }
+            $result = M("goods")->add($array);
             if($result){
                 $this->assign('jumpUrl',"index");
                 $this->success("添加成功");
@@ -59,16 +80,40 @@ class GoodController extends Controller {
     public function edit(){
         $id = $_GET['id'];
         if(empty($_POST)){
-            $result = M("article_type")->where("id = $id")->field("id,name,is_show,info")->find();
+            $result = M("goods")->where("id = $id")->find();
+            $type_id=$result[cid];
+            $this->assign("type_id",$type_id);
+//            $result[cid]=M("article_type")->where("id = '$result[cid]'")->getField("name");
             $this->assign("result",$result);
+            $result1 = M("Article_type")->where("is_show != 0")->field("id,name")->select();
+            $this->assign("Article_type",$result1);
             $this->assign("action","edit");
             $this->display("add");
         }else{
-            $array[name] = $_POST['name'];
+            $array[title] = $_POST['name'];
+            $array[content] = $_POST['content'];
+            $array[cid] = $_POST['cid'];
             $array[is_show] = $_POST['is_show'];
-            $array[info] = $_POST['info'];
+            $array[price] = $_POST['price'];
             $array[update_time] = time();
-            $result = M("article_type")->where("id = $_POST[id]")->save($array);
+            $path = $_FILES['path'];
+            if(!empty($path[tmp_name])){
+                $upload = new \Think\Upload();// 实例化上传类
+                $upload->maxSize = 3145728;//设置附件上传大小
+                $upload->exts = array("jpg","png","gif","jpeg");//设置上传附件类型
+//                $upload->savePath = './Upload/image/';//设置附件上传目录
+                $upload->rootPath  =      './Uploads/'; // 设置附件上传根目录
+                $upload->savePath  =      ''; // 设置附件上传（子）目录
+                $info = $upload->upload();//上传文件
+                if(!$info){//上传错误提示错误信息
+                    $this->error($upload->getError());
+                }else{
+                    foreach($info as $file){
+                        $array[path] =   $file['savepath'].$file['savename'];
+                    }
+                }
+            }
+            $result = M("goods")->where("id = $_POST[id]")->save($array);
             if($result){
                 $this->assign('jumpUrl',"index");
                 $this->success("编辑成功");

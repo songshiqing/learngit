@@ -12,19 +12,32 @@
         <input type="hidden" name="id" value="{$result.id}">
         <table  border="0"  cellspacing="0">
             <tr>
-                <td><label for="txtname">名称：</label></td>
-                <td><input type="text" id="txtname" name="name"  value="{$result.name}"/></td>
+                <td><label for="txtname">商品名称：</label></td>
+                <td><input type="text" id="txtname" name="name"  value="{$result.title}"/></td>
             </tr>
             <tr>
-                <td class="title">图片：</td>
-                <td><input type="file" name="accessory" id="accessory" value="" >
-                    <if condition="$action eq 'banner_edit'"><a href="/Uploads/{$result.accessory}" target="_blank">{$result.accessory}</a></if>
-                    针对首页
+                <td><label for="txtname">商品价格：</label></td>
+                <td><input type="text"  name="price"  value="{$result.price}"/></td>
+            </tr>
+            <tr>
+                <td><label>所属分类：</label></td>
+                <td>
+                    <select name="cid" id="cid">
+                        <volist name="Article_type" id="vo">
+                            <option value="{$vo.id}" <if condition="$vo.id eq $type_id">selected</if>>{$vo.name}</option>
+                        </volist>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="title">商品图片：</td>
+                <td><input type="file" name="path" id="accessory" value="" >
+                    <if condition="$action eq 'banner_edit'"><a href="/Uploads/{$result.path}" target="_blank">{$result.path}</a></if>
                 </td>
             </tr>
             <tr>
                 <td><label for="txtpswd">描述：</label></td>
-                <td><textarea  id="txtpswd" cols="20" rows="5" name="info"  >{$result.info}</textarea></td>
+                <td><textarea  id="txtpswd" cols="20" rows="5" name="content"  >{$result.content}</textarea></td>
             </tr>
             <tr>
                 <td class="title">是否显示：</td>

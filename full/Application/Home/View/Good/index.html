@@ -15,7 +15,7 @@
                 </select> <label id="tip_words">&nbsp;关键字 :&nbsp;</label><input type="text" class="stxt" name="keywords" id="keywords" value="{$keywords}">
         <input type="submit" value="搜索" class="sbtn" ></span>
     </form>
-    <table border="0"  cellspacing="0">
+    <table border="1"  cellspacing="0" cellpadding="0">
         <tr>
             <th >ID</th>
             <th>商品名称</th>
@@ -34,7 +34,9 @@
                 <td>{$vo.title}</td>
                 <td>{$vo.cid}</td>
                 <td>{$vo.price}</td>
-                <td><a href="/Uploads/{$vo.path}" target="_blank">{$vo.path}</a></td>
+                <td>
+                    <img src="../../../Uploads/{$vo['path']}" alt="222" height="100px" width="100px"/>
+                </td>
                 <td>{$vo.content}</td>
                 <td>
                     <if condition="$vo.is_show eq 1">显示
